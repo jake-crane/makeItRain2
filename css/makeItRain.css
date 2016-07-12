@@ -1,0 +1,17 @@
+.money:before {
+    content: "\f0d6";
+}
+
+.money {
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    font: normal normal normal 14px/1 FontAwesome;
+    color: #065C27;
+}
+
+@keyframes example {
+    0%   {left:0; top:0;}
+    100%  {left:400px; top:400px;}
+}
